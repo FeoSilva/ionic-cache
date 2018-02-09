@@ -6,7 +6,7 @@ import { IonicStorageModule } from '@ionic/storage';
   imports: [
     IonicStorageModule.forRoot({
       name: '__ionicCache',
-      driverOrder: ['indexeddb', 'sqlite', 'websql']
+      driverOrder: ['sqlite', 'websql', 'indexeddb']
     })
   ]
 })
